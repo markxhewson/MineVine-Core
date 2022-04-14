@@ -1,0 +1,18 @@
+name: Minevine
+version: '${project.version}'
+main: xyz.lotho.me.minevine.plugin.Minevine
+api-version: 1.8.8
+
+commands:
+  setrank:
+    description: 'Alter a players rank'
+    aliases: [setrole]
+  startgame:
+    description: 'Force start a game'
+    aliases: [begin]
+  endgame:
+    description: 'Force end a game'
+    aliases: [end]
+depend:
+  - SlimeWorldManager
+  - ProtocolLib

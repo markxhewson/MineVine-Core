@@ -1,0 +1,8 @@
+database:
+  mongoURI: "mongodb://admin:BRYMXWZXwEYtPgaD@192.168.0.129"
+  otherURI: "mongodb+srv://admin:admin@cluster0.cexgn.mongodb.net"
+
+lobby:
+  mongoWorldName: 'mega01'
+  worldName: 'lobby01'
+  loader: "mongodb"

@@ -1,0 +1,52 @@
+maps:
+  lighthouse:
+    teams:
+      RED:
+        spawn: "-22, 37, -86, 0.3, -2.2"
+        generator: "-23, 36, -91"
+      BLUE:
+        spawn: "29, 37, -86, 0.5, -2.0"
+        generator: "29, 36, -91"
+      GREEN:
+        spawn: "90, 37, -25, 90.6, -2.6"
+        generator: "94, 36, -26"
+      YELLOW:
+        spawn: "90, 37, 26, 90.2, -2.3"
+        generator: "94, 36, 26"
+      AQUA:
+        spawn: "29, 37, 87, 180, -2.3"
+        generator: "29, 36, 91"
+      WHITE:
+        spawn: "-22, 37, 87, 179.7, -0.5"
+        generator: "-23, 36, 91"
+      PINK:
+        spawn: "-83, 37, 26, -90.3, -1.5"
+        generator: "-88, 36, 26"
+      GRAY:
+        spawn: "-83, 37, -25, -90, -1.1"
+        generator: "-88, 36, -26"
+    generators:
+      1:
+        type: DIAMOND
+        location: "-49, 39, 52"
+      2:
+        type: DIAMOND
+        location: "55, 39, 52"
+      3:
+        type: DIAMOND
+        location: "55, 39, -52"
+      4:
+        type: DIAMOND
+        location: "-49, 39, -52"
+      5:
+        type: EMERALD
+        location: "13, 37, -14"
+      6:
+        type: EMERALD
+        location: "-7, 37, 14"
+      7:
+        type: EMERALD
+        location: "3, 59, 7"
+      8:
+        type: EMERALD
+        location: "3, 59, -7"
